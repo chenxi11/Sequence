@@ -1,22 +1,26 @@
 #include"Sequence.h"
+#include<iostream>
+using namespace std;
 
+Sequece::Sequence(string filename);
 
-Sequece::Sequence(string filename)
-{return 0;}
-
-int length(char*p)
+Sequence::int length(  )
 {
-   int a=0;
-   while(p[a]) 
-   a++;
-   return a;
+ 
+   return 0;
 }
-void main(
-   char ch[1000];
-   int i;
-   cin>>ch;
-   i=length(ch);
+Sequence::numberOf(char a)
+{
+
+return 0;
 }
-int Sequence::numberOf(char base){return 0;}
-Sequence::string longestConsecutive(){return 0;}
-Sequence::string longestRepeated(){return 0;}
+Sequence::longestConsecutive()
+{
+
+return 0;
+}
+Sequence::longestRepeated()
+{
+
+return 0;
+}
